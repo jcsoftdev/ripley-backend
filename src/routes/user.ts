@@ -8,5 +8,5 @@ router.get("/users", getUsers);
 
 // PROMEDIO DE EDAD
 router.get("/user/average", getAverage);
-router.get("/user/average",(r: Request<{}>,q)=>{console.log(r,q)});
+
 export default router
